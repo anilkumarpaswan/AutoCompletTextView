@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">AutoCompletTextView</string>
+    <string-array name="countries">
+        <item> Araria</item>
+
+        <item> Bihar</item>
+        <item> Jharkhand</item>
+        <item> Madheoura</item>
+        <item> Supole</item>
+        <item> Kishangang</item>
+        <item> Tonha</item>
+        <item> Khajuri</item>
+        <item> Tharua Patti</item>
+        <item> Bhatagama</item>
+        <item>Ranigang</item>
+        <item> Patna</item>
+        <item> Khagriya</item>
+
+
+
+    </string-array>
+</resources>

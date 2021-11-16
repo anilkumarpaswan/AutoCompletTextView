@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#134742"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+
+    <AutoCompleteTextView
+        android:id="@+id/autoCompText"
+        android:layout_width="match_parent"
+        android:layout_margin="18dp"
+        android:layout_height="55dp"
+        android:completionHint="Select an Country Name"
+        android:completionThreshold="1"
+        android:dropDownAnchor="@id/txtView"
+        android:hint="Select an Country Nme"
+        android:inputType="textAutoComplete"
+        android:popupBackground="@color/colorAccent"
+        android:textSize="35dp" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Countries"
+        android:textSize="35dp"
+        android:textColor="#800630"
+        android:padding="16dp"
+        android:id="@+id/txtView"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/design_default_color_primary"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Anil_txt"/>
+
+</LinearLayout>
